@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    A repository is initialized, but it's still empty. It needs to be done to
+    add commits later on, which will enable version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The working directory represents the virtual space, where the files of the
+    project are stored, while the staging area contains files selected for a
+    commitment. The repository, on the other hand, is the whole record of all
+    changes that have been made so far.

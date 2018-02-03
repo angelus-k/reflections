@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    1. have a list of all the differences shown
+    2. being able to locate mistyped words via ctrl+f very fast
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    1. staying on top of things
+    2. monitor progress more easily
+    3. if one crashes a file, you can just go back to the previous file that
+       worked
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+    manual commit:
+      + save only meaningful changes
+      + compare different versions quickly; also by third persons
+      - prone to user error
+      - increased exposure to outside risks (e.g. blackout)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Both procedures have their advantages and disadvantages. The former is well-
+    suited in cases with interconnected files, such as building a website with
+    html and using a separate stylesheet. The latter approach is more lean and
+    saves disc space.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the whole history of the respective git directory. So be sure
+    that the .git file is in the working directory! The working directory can be
+    assessed using the pwd command. To move one level up, use cd and the
+    destination folder. Then type git log to show the history.
+
+    git diff gives the difference between two versions of a file. Just type
+    git diff ID#1 ID#2 and the lines added and removed will be shown.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It enables you to always go back to a previous state where things worked.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use it for the Web API course.

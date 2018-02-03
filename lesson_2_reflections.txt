@@ -10,3 +10,33 @@ What value do you think it offers?
     project are stored, while the staging area contains files selected for a
     commitment. The repository, on the other hand, is the whole record of all
     changes that have been made so far.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    In the staging area all adjusted files can be collected that represent a
+    single logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    When you would like to experiment, try a new feature etc w/o destroing the
+    previous code.
+
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams illustrate the dependency structure and the accessibility of
+    commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    A merged file will result. It can incorporate all the additions made in both
+    previous files. In case of conflict the user has to decide manually which
+    pieces of code to keep.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    + save time
+    - lose control
